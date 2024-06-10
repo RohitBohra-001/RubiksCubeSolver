@@ -61,6 +61,24 @@ build CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o: CXX_COMPILER__RubiksCube
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
   OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
 
+build CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /Users/mymac/Desktop/Rubiks/RubiksCubeSolver/RubiksCube3dArray.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+
+build CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /Users/mymac/Desktop/Rubiks/RubiksCubeSolver/RubiksCube1dArray.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+
+build CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o: CXX_COMPILER__RubiksCubeSolver_unscanned_Debug /Users/mymac/Desktop/Rubiks/RubiksCubeSolver/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_RubiksCubeSolver
+  DEP_FILE = CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
+  OBJECT_FILE_DIR = CMakeFiles/RubiksCubeSolver.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RubiksCubeSolver
@@ -69,7 +87,7 @@ build CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o: CXX_COMPILER__RubiksCube
 #############################################
 # Link the executable RubiksCubeSolver
 
-build RubiksCubeSolver: CXX_EXECUTABLE_LINKER__RubiksCubeSolver_Debug CMakeFiles/RubiksCubeSolver.dir/main.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o
+build RubiksCubeSolver: CXX_EXECUTABLE_LINKER__RubiksCubeSolver_Debug CMakeFiles/RubiksCubeSolver.dir/main.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube3dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCube1dArray.cpp.o CMakeFiles/RubiksCubeSolver.dir/RubiksCubeBitboard.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/RubiksCubeSolver.dir
   POST_BUILD = :
