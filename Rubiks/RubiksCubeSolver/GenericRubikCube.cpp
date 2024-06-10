@@ -1,5 +1,0 @@
-//
-// Created by Rohit Bohra on 10/06/24.
-//
-
-#include "GenericRubikCube.h"
